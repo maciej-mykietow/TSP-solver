@@ -1,0 +1,74 @@
+.fade-in-image {
+  // background-color: 'beige';
+  // height: '50%';
+  // align-content: 'center';
+  // justify-content: 'center';
+
+  animation: fadeIn 3s;
+  // -webkit-animation: fadeIn 5s;
+  // -moz-animation: fadeIn 5s;
+  // -o-animation: fadeIn 5s;
+  // -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-height: 700px) {
+  .modal-dialog {
+    margin-top: 0;
+  }
+
+  .modal-header {
+    padding-top: 1rem !important;
+  }
+}
+
+@media (max-height: 700px) {
+  .modal-body {
+    padding-bottom: 0.75rem !important;
+  }
+}
+
+@media (max-height: 700px) {
+  .page-column {
+    height: 450px;
+  }
+}
+
+@media (min-height: 701px) {
+  .page-column {
+    height: 500px;
+  }
+}
+
+.description-field {
+  background-color: #f2f2f2;
+  // height: '65%';
+  overflow: auto;
+  padding: 1rem;
+  border-style: solid;
+  border-color: lightgrey;
+  border-width: thin;
+}
+
+.interactive-field {
+  background-color: beige;
+  // height: '35%',
+  align-content: center;
+  justify-content: center;
+  border-style: solid;
+  border-color: lightgrey;
+  border-width: thin;
+}
+
+.modal-body {
+  padding-top: 0.5rem !important
+}

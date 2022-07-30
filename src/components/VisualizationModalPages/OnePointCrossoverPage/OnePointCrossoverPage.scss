@@ -1,0 +1,25 @@
+.crossover-page-button {
+  margin: 0.5rem;
+  position: fixed;
+  left: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .crossover-page-button {
+    margin: 1rem !important;
+    bottom: 0;
+    left: 1rem !important
+  }
+}
+
+@media (max-height: 700px) {
+  .crossover-page-button {
+
+    margin-top: 0.25rem !important;
+  }
+}
+
+// .crossover-page-flip-move {
+//   padding-inline-start: 1px !important;
+//   margin-bottom: 0px !important
+// }

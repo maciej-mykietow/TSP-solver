@@ -1,0 +1,53 @@
+.defaultItem {
+    background-color: #e3e3e3;
+    width: 20px;
+    height: 25px;
+    padding: 1px;
+    margin: 1px;
+    text-align: center;
+    align-items: center;
+}
+
+@media (max-width: 991px) {
+    .solutionItem {
+        background-color: #e3e3e3;
+        width: 50px;
+        height: 50px;
+        padding: 1px;
+        margin: 1px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+
+@media (min-width: 992px) {
+.solutionItem {
+    background-color: #e3e3e3;
+    width: 55px;
+    height: 50px;
+    padding: 1px;
+    margin: 1px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+}
+
+.InTournament {
+    background-color: red;
+    border: solid 3px black;
+    transition: border-width 0.5s linear;
+    transition-delay: 1s;
+}
+
+.InTournamentSelected {
+    background-color: red;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h5 {
+    margin-bottom: 0;
+}

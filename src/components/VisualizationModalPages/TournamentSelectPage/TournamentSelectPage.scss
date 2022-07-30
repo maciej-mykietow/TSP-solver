@@ -1,0 +1,23 @@
+.btn-primary:disabled {
+  color: black;
+  background-color: #d6d6d6;
+}
+
+.btn-primary:disabled:hover {
+  color: black;
+  background-color: #d6d6d6;
+}
+
+.select-solution-button {
+  margin: 1rem;
+  margin-top: 1.5rem;
+  position: fixed;
+  left: 2rem;
+}
+
+@media (max-width: 992px) {
+  .select-solution-button {
+    bottom: 0;
+    left: 1rem !important
+  }
+}
