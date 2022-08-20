@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/TSP-solver/static/css/main.680262bf.chunk.css",
+    "main.js": "/TSP-solver/static/js/main.0dce6818.chunk.js",
+    "main.js.map": "/TSP-solver/static/js/main.0dce6818.chunk.js.map",
+    "runtime-main.js": "/TSP-solver/static/js/runtime-main.986ea548.js",
+    "runtime-main.js.map": "/TSP-solver/static/js/runtime-main.986ea548.js.map",
+    "static/css/2.2d4a90ad.chunk.css": "/TSP-solver/static/css/2.2d4a90ad.chunk.css",
+    "static/js/2.2ab5a666.chunk.js": "/TSP-solver/static/js/2.2ab5a666.chunk.js",
+    "static/js/2.2ab5a666.chunk.js.map": "/TSP-solver/static/js/2.2ab5a666.chunk.js.map",
+    "index.html": "/TSP-solver/index.html",
+    "static/css/2.2d4a90ad.chunk.css.map": "/TSP-solver/static/css/2.2d4a90ad.chunk.css.map",
+    "static/css/main.680262bf.chunk.css.map": "/TSP-solver/static/css/main.680262bf.chunk.css.map",
+    "static/js/2.2ab5a666.chunk.js.LICENSE.txt": "/TSP-solver/static/js/2.2ab5a666.chunk.js.LICENSE.txt",
+    "static/js/main.0dce6818.chunk.js.LICENSE.txt": "/TSP-solver/static/js/main.0dce6818.chunk.js.LICENSE.txt",
+    "static/media/001-mix.0afafb5b.png": "/TSP-solver/static/media/001-mix.0afafb5b.png",
+    "static/media/002-clock.3aef4628.png": "/TSP-solver/static/media/002-clock.3aef4628.png",
+    "static/media/004-blur.b93f0d54.png": "/TSP-solver/static/media/004-blur.b93f0d54.png",
+    "static/media/all.min.css": "/TSP-solver/static/media/fa-solid-900.f4f93856.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.986ea548.js",
+    "static/css/2.2d4a90ad.chunk.css",
+    "static/js/2.2ab5a666.chunk.js",
+    "static/css/main.680262bf.chunk.css",
+    "static/js/main.0dce6818.chunk.js"
+  ]
+}
