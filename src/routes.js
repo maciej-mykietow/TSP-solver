@@ -23,7 +23,7 @@ const dashboardRoutes = [
     name: "Dashboard",
     icon: "nc-icon nc-chart-pie-35",
     component: Dashboard,
-    layout: "/solver",
+    layout: "/",
   }
 ];
 

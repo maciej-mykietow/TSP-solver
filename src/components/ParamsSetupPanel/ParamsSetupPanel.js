@@ -5,6 +5,13 @@ import 'rc-slider/assets/index.css';
 import { Button, Card, Row, Col } from "react-bootstrap";
 import Slider from 'rc-slider';
 
+//explicit import to tell the webpack to include these during build
+import  CrossingIcon  from '../../assets/png/001-mix.png'
+import  GenerationCountIcon  from '../../assets/png/002-clock.png'
+import  MutationIcon  from '../../assets/png/003-reuse.png'
+import  PopulationIcon  from '../../assets/png/004-blur.png'
+import  TournamentSizeIcon  from '../../assets/png/005-ranking.png'
+
 const ParamsSetupPanel = (props) => {
   return (
     <Row>
@@ -12,10 +19,10 @@ const ParamsSetupPanel = (props) => {
         <Card className="card-stats">
           <Card.Body>
             <Row className="card-body-row">
-              <Col xs="3" className="card-stats-img-container-col">
+            <Col xs="3" className="card-stats-img-container-col">
                 <div>
-                  <img src={require('assets/png/004-blur.png').default}
-                    alt="fire"
+                  <img src={PopulationIcon}
+                    alt=""
                     className="card-stats-icon" />
                 </div>
               </Col>
@@ -42,8 +49,8 @@ const ParamsSetupPanel = (props) => {
           <Card.Body>
             <Row className="card-body-row">
               <Col xs="3" className="card-stats-img-container-col">
-                <img src={require('assets/png/002-clock.png').default}
-                  alt="fire"
+                <img src={GenerationCountIcon}
+                  alt=""
                   className="card-stats-icon" />
               </Col>
               <Col xs="9" className="card-stats-slider-col">
@@ -69,8 +76,8 @@ const ParamsSetupPanel = (props) => {
           <Card.Body>
             <Row className="card-body-row">
               <Col xs="3" className="card-stats-img-container-col">
-                <img src={require('assets/png/005-ranking.png').default}
-                  alt="fire"
+               <img src={TournamentSizeIcon}
+                  alt=""
                   className="card-stats-icon" />
               </Col>
               <Col xs="9" className="card-stats-slider-col">
@@ -96,8 +103,8 @@ const ParamsSetupPanel = (props) => {
           <Card.Body>
             <Row className="card-body-row">
               <Col xs="3" className="card-stats-img-container-col">
-                <img src={require('assets/png/001-mix.png').default}
-                  alt="fire"
+                <img src={CrossingIcon}
+                  alt=""
                   className="card-stats-icon" />
               </Col>
               <Col xs="9" className="card-stats-slider-col">
@@ -123,8 +130,8 @@ const ParamsSetupPanel = (props) => {
           <Card.Body>
             <Row className="card-body-row">
               <Col xs="3" className="card-stats-img-container-col">
-                <img src={require('assets/png/003-reuse.png').default}
-                  alt="fire"
+                <img src={MutationIcon}
+                  alt=""
                   className="card-stats-icon" />
               </Col>
               <Col xs="9" className="card-stats-slider-col">

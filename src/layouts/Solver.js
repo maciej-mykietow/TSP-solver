@@ -18,7 +18,7 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 
-import routes from "routes.js";
+import routes from "../routes.js";
 
 function Solver() {
   const mainPanel = React.useRef(null);
@@ -26,7 +26,7 @@ function Solver() {
     return routes.map((prop, key) => {
       return (
         <Route
-          path={prop.layout + prop.path}
+          path={prop.path}
           render={(props) => <prop.component {...props} />}
           key={key}
         />
